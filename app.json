@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Taslim Ecole",
+    "slug": "taslim-ecole-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "taslim-ecole",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Taslim utilise le microphone uniquement pour enregistrer les messages vocaux."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
